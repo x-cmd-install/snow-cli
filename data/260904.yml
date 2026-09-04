@@ -1,11 +1,13 @@
 about:
-  description: Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编程智能体，同时兼容 Deepseek、OpenAI、Gemini和Claude。
+  description:
+  |
+    Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编程智能体，同时兼容 Deepseek、OpenAI、Gemini和Claude。
   license: NOASSERTION
   homepage: 
   head: eb70ab6
   archived: false
   latestVersion: v0.8.31
-  collectedAt: 2026-09-04T04:11:56Z
+  collectedAt: 2026-09-04T19:21:24Z
 timeline:
   created: 2025-08-16
   lastCommit: 2026-08-25
@@ -16,7 +18,7 @@ popularity:
   fork: 83
   release: 172
   contributor: 21
-  pullRequest: 13
+  pullRequest: 94
   issue: 102
 language:
   TypeScript: 5230279
@@ -25,7 +27,7 @@ language:
   Rust: 34562
   CSS: 24371
   HTML: 6860
-totalLine: 5709443
+totalBytes: 5709443
 recent:
   last30d:
     since: 2026-08-05
@@ -35,6 +37,14 @@ recent:
     closedIssue: 3
     openIssue: 0
     commit: 15
+  last60d:
+    since: 2026-07-06
+    release: 21
+    mergedPR: 14
+    openPR: 0
+    closedIssue: 8
+    openIssue: 0
+    commit: 98
   last90d:
     since: 2026-06-06
     release: 36
@@ -59,3 +69,21 @@ recent:
     closedIssue: 96
     openIssue: 6
     commit: 1093
+  last720d:
+    since: 2024-09-14
+    release: 100
+    mergedPR: 81
+    openPR: 0
+    closedIssue: 96
+    openIssue: 6
+    commit: 1214
+total:
+  release: 172
+  mergedPR: 81
+  openPR: 0
+  closedIssue: 96
+  openIssue: 6
+  commit: 1214
+---
+---
+

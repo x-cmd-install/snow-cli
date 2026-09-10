@@ -4,7 +4,7 @@
 
 Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编程智能体，同时兼容 Deepseek、OpenAI、Gemini和Claude。
 
-![snow-cli](https://repo.x-cmd.io/snow-cli.svg)
+![snow-cli](https://repo.x-cmd.io/snow-cli.svg?lang=zh)
 
 ## 安装
 
@@ -21,11 +21,10 @@ x install snow-cli
 
 - **最新版本**: `v0.8.31` (2026-08-25)
 - **最近提交**: 2026-08-25
-- **发布时间**: 2026-08-25T13:42:14Z
 
 ## 流行度
 
-- **Star**: 1,061 · **Fork**: 83 · **开放 issue**: 102 · **贡献者**: 21
+- **Star**: 1,060 · **Fork**: 83 · **开放 issue**: 102 · **贡献者**: 21
 
 ## 累计统计
 
@@ -60,4 +59,4 @@ snow-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:12:26Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:08:35Z._

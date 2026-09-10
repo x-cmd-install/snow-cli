@@ -12,6 +12,18 @@ Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, a
 x install snow-cli
 ```
 
+## 代码规模
+
+合计: **194,450** 行代码（覆盖前 5 种语言、共 **673** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| TypeScript | 119,515 | 13,866 | 12,545 | 498 |
+| Tsx | 40,969 | 1,886 | 3,674 | 117 |
+| Json | 21,488 | 0 | 22 | 9 |
+| JavaScript | 5,462 | 212 | 410 | 15 |
+| Kotlin | 4,461 | 286 | 666 | 34 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/MayDay-wpf/snow-cli>
@@ -35,20 +47,25 @@ x install snow-cli
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 6 | 0 | 0 | 3 | 0 | 12 |
+| last60d | 2026-07-12 | 17 | 13 | 0 | 6 | 0 | 77 |
 | 90d | 2026-06-12 | 33 | 16 | 0 | 18 | 1 | 170 |
+| last180d | 2026-03-14 | 97 | 20 | 0 | 41 | 1 | 430 |
 | 360d | 2025-09-15 | 100 | 81 | 0 | 96 | 6 | 1093 |
+| last720d | 2024-09-20 | 100 | 81 | 0 | 96 | 6 | 1214 |
 
-## 代码规模
+## 发行版状态
 
-合计: **194,450** 行代码（覆盖前 5 种语言、共 **673** 个文件）。
+在 [repology.org](https://repology.org/project/snow-cli) 上共有 **57** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**43** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| TypeScript | 119,515 | 13,866 | 12,545 | 498 |
-| Tsx | 40,969 | 1,886 | 3,674 | 117 |
-| Json | 21,488 | 0 | 22 | 9 |
-| JavaScript | 5,462 | 212 | 410 | 15 |
-| Kotlin | 4,461 | 286 | 666 | 34 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.4.4` | ⚠️ outdated |
+| Debian 14 | `0.4.4` | ⚠️ outdated |
+| Debian 13 | `0.4.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.4.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.4.4` | ⚠️ outdated |
+| Homebrew | `20130616` | ✅ latest |
+| Nix unstable | `20130616` | ✅ latest |
 
 ## 改进这些数据
 
@@ -59,4 +76,4 @@ snow-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:08:35Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:12:12Z._

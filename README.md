@@ -12,6 +12,18 @@ Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, a
 x install snow-cli
 ```
 
+## Code insight
+
+Total: **194,450** lines of code across **673** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| TypeScript | 119,515 | 13,866 | 12,545 | 498 |
+| Tsx | 40,969 | 1,886 | 3,674 | 117 |
+| Json | 21,488 | 0 | 22 | 9 |
+| JavaScript | 5,462 | 212 | 410 | 15 |
+| Kotlin | 4,461 | 286 | 666 | 34 |
+
 ## Source
 
 - **Upstream**: <https://github.com/MayDay-wpf/snow-cli>
@@ -35,20 +47,25 @@ x install snow-cli
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 6 | 0 | 0 | 3 | 0 | 12 |
+| last60d | 2026-07-12 | 17 | 13 | 0 | 6 | 0 | 77 |
 | 90d | 2026-06-12 | 33 | 16 | 0 | 18 | 1 | 170 |
+| last180d | 2026-03-14 | 97 | 20 | 0 | 41 | 1 | 430 |
 | 360d | 2025-09-15 | 100 | 81 | 0 | 96 | 6 | 1093 |
+| last720d | 2024-09-20 | 100 | 81 | 0 | 96 | 6 | 1214 |
 
-## Code size
+## Distribution status
 
-Total: **194,450** lines of code across **673** files in the top 5 languages.
+Reported by **57** distros on [repology.org](https://repology.org/project/snow-cli). **13** are ✅ on the latest upstream release, **43** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| TypeScript | 119,515 | 13,866 | 12,545 | 498 |
-| Tsx | 40,969 | 1,886 | 3,674 | 117 |
-| Json | 21,488 | 0 | 22 | 9 |
-| JavaScript | 5,462 | 212 | 410 | 15 |
-| Kotlin | 4,461 | 286 | 666 | 34 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.4.4` | ⚠️ outdated |
+| Debian 14 | `0.4.4` | ⚠️ outdated |
+| Debian 13 | `0.4.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.4.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.4.4` | ⚠️ outdated |
+| Homebrew | `20130616` | ✅ latest |
+| Nix unstable | `20130616` | ✅ latest |
 
 ## Improve this data
 
@@ -59,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:08:35Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:12:12Z._

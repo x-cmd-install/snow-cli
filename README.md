@@ -36,7 +36,7 @@ Total: **194,450** lines of code across **673** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,060 · **Forks**: 83 · **Open issues**: 102 · **Contributors**: 21
+- **Stars**: 1,060 · **Forks**: 83 · **Open issues**: 102 · **Contributors**: 20
 
 ## Totals (cumulative)
 
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:11:55Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:39:24Z._

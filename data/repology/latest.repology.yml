@@ -1,52 +1,36 @@
-- repo: slackbuilds
-  srcname: misc/snow
-  visiblename: misc/snow
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.3
+  origversion: 1:0.4.3-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: homebrew
+  srcname: snow
+  visiblename: snow
   version: "20130616"
   origversion: null
   status: newest
-  maintainers:
-    - petr@kle.cz
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_stable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_testing
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
+  summary: 'Whitespace steganography: coded messages using whitespace'
 - repo: aur
   srcname: snow
   binname: snow
@@ -92,6 +76,19 @@
   summary: Classic Macintosh emulator
   licenses:
     - MIT
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.3
+  origversion: 1:0.4.3-1
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
 - repo: chimera
   subrepo: user
   srcname: snow
@@ -192,39 +189,6 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.3
-  origversion: 1:0.4.3-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: homebrew
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: 'Whitespace steganography: coded messages using whitespace'
 - repo: kali_rolling
   subrepo: main
   srcname: snow
@@ -323,7 +287,7 @@
     - snow-debugsource
   visiblename: snow
   version: 1.5.0
-  origversion: 1.5.0+20260826_b81dbcc-1.1
+  origversion: 1.5.0+20260826_b81dbcc-1.2
   status: outdated
   summary: Classic Macintosh emulator
   licenses:
@@ -345,6 +309,19 @@
     - gnu-r
 - repo: parrot
   subrepo: parrot-updates/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: parrot
+  subrepo: parrot/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -444,6 +421,42 @@
     - edd@debian.org
   categories:
     - gnu-r
+- repo: raspbian_stable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: slackbuilds
+  srcname: misc/snow
+  visiblename: misc/snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  maintainers:
+    - petr@kle.cz
+  categories:
+    - misc
 - repo: terra_rawhide
   srcname: snow
   binname: snow
@@ -616,19 +629,6 @@
   visiblename: snow
   version: 0.4.2
   origversion: 1:0.4.2-1.1
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - universe/math
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.3
-  origversion: 1:0.4.3-1
   status: outdated
   maintainers:
     - edd@debian.org

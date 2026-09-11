@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.8.31"
   latestRelease: "v0.8.31"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:11:45Z
+  collectedAt: 2026-09-11T20:39:17Z
 timeline:
   created: 2025-08-16
   lastCommit: 2026-08-25
@@ -19,7 +19,7 @@ popularity:
   watcher: 2
   fork: 83
   release: 172
-  contributor: 21
+  contributor: 20
   pullRequest: 94
   issue: 102
 language:
@@ -88,7 +88,7 @@ total:
   commit: 1214
 ---
 path: /home/runner/.x-repo/github.com/MayDay-wpf/snow-cli
-collectedAt: 2026-09-11T04:11:49Z
+collectedAt: 2026-09-11T20:39:20Z
 loc:
   TypeScript:
     code: 119515

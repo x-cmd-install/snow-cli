@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/376436894",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/376436894/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/376436894/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.8.31",
-  "id": 376436894,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/388288751",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/388288751/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/388288751/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.8.32",
+  "id": 388288751,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84Wb_ie",
-  "tag_name": "v0.8.31",
+  "node_id": "RE_kwDOPfAcG84XJNDv",
+  "tag_name": "v0.8.32",
   "target_commitish": "main",
-  "name": "Release v0.8.31",
+  "name": "Release v0.8.32",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-08-25T13:37:56Z",
-  "updated_at": "2026-08-25T13:42:14Z",
-  "published_at": "2026-08-25T13:42:14Z",
+  "created_at": "2026-09-14T09:42:04Z",
+  "updated_at": "2026-09-14T09:47:27Z",
+  "published_at": "2026-09-14T09:47:27Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.8.31",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.8.31",
-  "body": "## Snow CLI v0.8.31\n\n### What's New\n\n- Proxy handling now bypasses the proxy for local and private network addresses (e.g., localhost, 10.x.x.x, 192.168.x.x), enabling direct connections for MCP local services\n- Improved thinking feature handling in streaming chat completion: enabled thinking relies on reasoning_effort for better compatibility with third-party APIs, while disabled thinking is explicitly sent\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.8.32",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.8.32",
+  "body": "## Snow CLI v0.8.32\n\n### What's New\n\n- Enhanced image content processing: images in data URL, http(s) URL, or raw base64 format are now handled uniformly, with bare base64 automatically completed into a data URL to prevent 400 errors from servers that reject malformed image URLs\n- Optimized inline image sending for tool messages: images are inlined as image_url content blocks within the tool message itself (DeepSeek Vision scheme), instead of being split into separate user messages\n- Profile switching safety: configuration updates now read the active profile's current content from disk before writing back, so a profile switched elsewhere (e.g., via Alt+P in another session or instance) is no longer overwritten with stale in-memory baseUrl/apiKey values\n- New SNOW_CONFIG_DIR environment variable to override the Snow global config directory (default ~/.snow), useful for multi-environment and test isolation\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

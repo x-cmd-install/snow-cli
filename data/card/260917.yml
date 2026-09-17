@@ -163,4 +163,3 @@ total:
 ---
 
 ---
-{"id":389981375,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOPfAcG84XPqS_","tag_name":"v0.8.33","target_commitish":"main","name":"Release v0.8.33","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-16T13:58:00Z","updated_at":"2026-09-16T14:02:49Z","published_at":"2026-09-16T14:02:49Z","assets":[],"body":"## Snow CLI v0.8.33\n\n### What's New\n\n- Add session ID support to the custom request header plugin, optimize request context processing\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"}

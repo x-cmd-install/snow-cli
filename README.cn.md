@@ -4,7 +4,7 @@
 
 Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编程智能体，同时兼容 Deepseek、OpenAI、Gemini和Claude。
 
-[![x-cmd/install — snow-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/snow-cli.svg?lang=zh)](https://x-cmd.com/install/snow-cli)
+[![x-cmd/install — snow-cli Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/snow-cli.svg?lang=zh)](https://x-cmd.com/install/snow-cli)
 
 ## 安装
 
@@ -36,7 +36,7 @@ x install snow-cli
 
 ## 流行度
 
-- **Star**: 1,066 · **Fork**: 83 · **开放 issue**: 103 · **贡献者**: 20
+- **Star**: 1,065 · **Fork**: 83 · **开放 issue**: 103 · **贡献者**: 20
 
 ## 累计统计
 
@@ -46,12 +46,12 @@ x install snow-cli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 0 | 0 | 1 | 0 | 11 |
-| last60d | 2026-07-24 | 15 | 5 | 0 | 4 | 0 | 32 |
-| 90d | 2026-06-24 | 33 | 16 | 0 | 13 | 1 | 133 |
-| last180d | 2026-03-26 | 94 | 19 | 0 | 40 | 1 | 381 |
-| 360d | 2025-09-27 | 100 | 81 | 0 | 97 | 6 | 1103 |
-| last720d | 2024-10-02 | 100 | 81 | 0 | 97 | 6 | 1226 |
+| 30d | 2026-08-24 | 5 | 0 | 0 | 1 | 0 | 11 |
+| last60d | 2026-07-25 | 15 | 4 | 0 | 4 | 0 | 32 |
+| 90d | 2026-06-25 | 32 | 16 | 0 | 12 | 1 | 133 |
+| last180d | 2026-03-27 | 93 | 19 | 0 | 38 | 1 | 381 |
+| 360d | 2025-09-28 | 100 | 81 | 0 | 97 | 6 | 1103 |
+| last720d | 2024-10-03 | 100 | 81 | 0 | 97 | 6 | 1226 |
 
 ## 改进这些数据
 
@@ -62,4 +62,4 @@ snow-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T04:25:30Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:22:29Z._

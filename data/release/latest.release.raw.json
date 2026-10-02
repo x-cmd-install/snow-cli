@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/392469749",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/392469749/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/392469749/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.8.35",
-  "id": 392469749,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/400874937",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/400874937/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/400874937/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.8.36",
+  "id": 400874937,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84XZJz1",
-  "tag_name": "v0.8.35",
+  "node_id": "RE_kwDOPfAcG84X5N25",
+  "tag_name": "v0.8.36",
   "target_commitish": "main",
-  "name": "Release v0.8.35",
+  "name": "Release v0.8.36",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-20T15:00:51Z",
-  "updated_at": "2026-09-20T15:04:59Z",
-  "published_at": "2026-09-20T15:04:59Z",
+  "created_at": "2026-10-01T10:44:29Z",
+  "updated_at": "2026-10-01T10:49:22Z",
+  "published_at": "2026-10-01T10:49:22Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.8.35",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.8.35",
-  "body": "## Snow CLI v0.8.35\n\n### What's New\n\n- Add WebSocket transport support for the Responses API: a new \"Responses WebSocket Mode\" toggle (off by default, only shown when the request method is Responses) that streams over a persistent WebSocket connection on the same /responses endpoint instead of HTTP + SSE, with proxy support, handshake timeout, and idle-timeout handling\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.8.36",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.8.36",
+  "body": "## Snow CLI v0.8.36\n\n### What's New\n\n- Add filesystem copy tool\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

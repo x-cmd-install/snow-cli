@@ -163,4 +163,3 @@ total:
 ---
 
 ---
-{"id":401967285,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOPfAcG84X9Yi1","tag_name":"v0.8.37","target_commitish":"main","name":"Release v0.8.37","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-02T16:06:48Z","updated_at":"2026-10-02T16:11:22Z","published_at":"2026-10-02T16:11:22Z","assets":[],"body":"## Snow CLI v0.8.37\n\n### What's New\n\n- Make maximum number of reply tokens effective for chat/responses/gemini\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"}

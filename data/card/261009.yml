@@ -163,4 +163,3 @@ total:
 ---
 
 ---
-{"id":407410299,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOPfAcG84YSJZ7","tag_name":"v0.9.1","target_commitish":"main","name":"Release v0.9.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-09T01:32:56Z","updated_at":"2026-10-09T01:36:50Z","published_at":"2026-10-09T01:36:50Z","assets":[],"body":"## Snow CLI v0.9.1\n\n### What's New\n\n- Renamed `responsesFastMode` to `responsesServiceTier` with three options: Not Used (default), fast (priority), and ultrafast\n- Automatic migration from the legacy `responsesFastMode` boolean config (true migrates to `fast`)\n- Updated the Models panel to select the Responses service tier from a dedicated option list\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"}

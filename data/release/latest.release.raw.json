@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/410643246",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/410643246/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/410643246/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.4",
-  "id": 410643246,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/411868088",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/411868088/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/411868088/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.5",
+  "id": 411868088,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84Yeesu",
-  "tag_name": "v0.9.4",
+  "node_id": "RE_kwDOPfAcG84YjJu4",
+  "tag_name": "v0.9.5",
   "target_commitish": "main",
-  "name": "Release v0.9.4",
+  "name": "Release v0.9.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-12T13:34:13Z",
-  "updated_at": "2026-10-12T13:38:34Z",
-  "published_at": "2026-10-12T13:38:34Z",
+  "created_at": "2026-10-13T16:04:10Z",
+  "updated_at": "2026-10-13T16:08:34Z",
+  "published_at": "2026-10-13T16:08:34Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.4",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.4",
-  "body": "## Snow CLI v0.9.4\n\n### What's New\n\n- Busy state: non-streaming waits now show animated status indicators with an elapsed-time counter\n- Fix: restored input drafts keep typed long text visible instead of collapsing it into a paste placeholder (#212)\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.5",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.5",
+  "body": "## Snow CLI v0.9.5\n\n### What's New\n\n- New Resource Manager panel (`/taskmanager`): monitor CPU and memory usage of the main process and its child processes, and terminate processes directly from the panel\n- MCP tool discovery: two-track catalog JIT architecture removes discovery latency, keeps the LLM prompt cache intact (no more 5-minute TTL timer), and collapses concurrent probing into a single flight\n- AskUserQuestion: restored the multi-select contract and fixed an interaction deadlock (#220)\n- Thinking output: markdown code fences are protected and newlines are preserved when cleaning thinking content (#216)\n- Anthropic: added a display option for the new adaptive thinking models so reasoning text is visible in streaming responses\n- Anthropic OAuth: subscription requests now use the Claude Code beta endpoint and client headers, fixing 404 errors; model list requests no longer duplicate the /v1 path segment\n- Developer: established the TUI component testing conventions and infrastructure (#222)\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

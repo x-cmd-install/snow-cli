@@ -14,14 +14,14 @@ x install snow-cli
 
 ## Code insight
 
-Total: **204,875** lines of code across **710** files in the top 5 languages.
+Total: **205,895** lines of code across **712** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 126,964 | 14,728 | 13,338 | 527 |
-| Tsx | 43,746 | 2,026 | 3,903 | 122 |
-| Json | 21,493 | 0 | 22 | 9 |
-| JavaScript | 5,656 | 243 | 436 | 18 |
+| TypeScript | 127,378 | 14,807 | 13,377 | 529 |
+| Tsx | 44,225 | 2,044 | 3,945 | 122 |
+| Json | 21,501 | 0 | 22 | 9 |
+| JavaScript | 5,775 | 254 | 451 | 18 |
 | Kotlin | 4,461 | 286 | 666 | 34 |
 
 ## Source
@@ -31,27 +31,34 @@ Total: **204,875** lines of code across **710** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.9.5` (2026-10-13)
-- **Last commit**: 2026-10-13
+- **Latest**: `vsix-v0.4.35` (2026-10-15)
+- **Last commit**: 2026-10-15
+- **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 1,068 · **Forks**: 88 · **Open issues**: 112 · **Contributors**: 22
+- **Stars**: 1,069 · **Forks**: 88 · **Open issues**: 117 · **Contributors**: 22
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 88 · **Open PRs**: 0 · **Closed issues**: 106 · **Open issues**: 6 · **Commits**: 1264
+- **Releases**: 187 · **Merged PRs**: 88 · **Open PRs**: 5 · **Closed issues**: 106 · **Open issues**: 11 · **Commits**: 1267
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 13 | 7 | 0 | 10 | 0 | 36 |
-| last60d | 2026-08-15 | 18 | 7 | 0 | 12 | 0 | 48 |
-| 90d | 2026-07-16 | 28 | 16 | 0 | 14 | 0 | 72 |
-| last180d | 2026-04-17 | 88 | 26 | 0 | 40 | 1 | 354 |
-| 360d | 2025-10-19 | 100 | 88 | 0 | 106 | 6 | 1059 |
-| last720d | 2024-10-24 | 100 | 88 | 0 | 106 | 6 | 1264 |
+| 30d | 2026-09-15 | 14 | 7 | 5 | 10 | 5 | 39 |
+| last60d | 2026-08-16 | 20 | 7 | 5 | 12 | 5 | 51 |
+| 90d | 2026-07-17 | 28 | 15 | 5 | 13 | 5 | 75 |
+| last180d | 2026-04-18 | 90 | 26 | 5 | 40 | 6 | 357 |
+| 360d | 2025-10-20 | 100 | 88 | 5 | 106 | 11 | 1062 |
+| last720d | 2024-10-25 | 100 | 88 | 5 | 106 | 11 | 1267 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [snow-cli-0.4.35.vsix](https://github.com/MayDay-wpf/snow-cli/releases/download/vsix-v0.4.35/snow-cli-0.4.35.vsix) | 12.2 MiB | `other` |
 
 ## Improve this data
 
@@ -62,4 +69,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T04:30:14Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:12:05Z._

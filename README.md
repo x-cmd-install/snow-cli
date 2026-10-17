@@ -31,27 +31,27 @@ Total: **210,147** lines of code across **739** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.9.7` (2026-10-15)
+- **Latest**: `v0.9.8` (2026-10-16)
 - **Last commit**: 2026-10-16
 
 ## Popularity
 
-- **Stars**: 1,069 · **Forks**: 88 · **Open issues**: 120 · **Contributors**: 22
+- **Stars**: 1,068 · **Forks**: 88 · **Open issues**: 121 · **Contributors**: 22
 
 ## Totals (cumulative)
 
-- **Releases**: 188 · **Merged PRs**: 96 · **Open PRs**: 0 · **Closed issues**: 114 · **Open issues**: 6 · **Commits**: 1288
+- **Releases**: 189 · **Merged PRs**: 96 · **Open PRs**: 1 · **Closed issues**: 114 · **Open issues**: 7 · **Commits**: 1289
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 15 | 15 | 0 | 18 | 0 | 51 |
-| last60d | 2026-08-17 | 20 | 15 | 0 | 19 | 0 | 63 |
-| 90d | 2026-07-18 | 29 | 22 | 0 | 21 | 0 | 87 |
-| last180d | 2026-04-19 | 91 | 34 | 0 | 48 | 1 | 369 |
-| 360d | 2025-10-21 | 100 | 96 | 0 | 114 | 6 | 1074 |
-| last720d | 2024-10-26 | 100 | 96 | 0 | 114 | 6 | 1288 |
+| 30d | 2026-09-17 | 15 | 15 | 1 | 18 | 1 | 52 |
+| last60d | 2026-08-18 | 20 | 15 | 1 | 19 | 1 | 64 |
+| 90d | 2026-07-19 | 30 | 22 | 1 | 21 | 1 | 88 |
+| last180d | 2026-04-20 | 92 | 34 | 1 | 48 | 2 | 370 |
+| 360d | 2025-10-22 | 100 | 96 | 1 | 114 | 7 | 1075 |
+| last720d | 2024-10-27 | 100 | 96 | 1 | 114 | 7 | 1289 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T04:08:12Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T03:58:07Z._

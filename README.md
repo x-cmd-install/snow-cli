@@ -14,12 +14,12 @@ x install snow-cli
 
 ## Code insight
 
-Total: **210,147** lines of code across **739** files in the top 5 languages.
+Total: **211,227** lines of code across **742** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 130,320 | 15,073 | 13,796 | 550 |
-| Tsx | 45,188 | 2,111 | 4,092 | 127 |
+| TypeScript | 131,334 | 15,225 | 13,897 | 553 |
+| Tsx | 45,254 | 2,118 | 4,099 | 127 |
 | Json | 21,505 | 0 | 22 | 9 |
 | JavaScript | 6,118 | 299 | 496 | 19 |
 | Kotlin | 4,461 | 286 | 666 | 34 |
@@ -31,8 +31,8 @@ Total: **210,147** lines of code across **739** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.9.8` (2026-10-16)
-- **Last commit**: 2026-10-16
+- **Latest**: `v0.9.9` (2026-10-18)
+- **Last commit**: 2026-10-18
 
 ## Popularity
 
@@ -40,18 +40,18 @@ Total: **210,147** lines of code across **739** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 189 · **Merged PRs**: 96 · **Open PRs**: 1 · **Closed issues**: 114 · **Open issues**: 7 · **Commits**: 1289
+- **Releases**: 190 · **Merged PRs**: 96 · **Open PRs**: 1 · **Closed issues**: 114 · **Open issues**: 7 · **Commits**: 1293
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 15 | 15 | 1 | 17 | 1 | 47 |
-| last60d | 2026-08-19 | 20 | 15 | 1 | 19 | 1 | 58 |
-| 90d | 2026-07-20 | 30 | 20 | 1 | 21 | 1 | 80 |
-| last180d | 2026-04-21 | 92 | 34 | 1 | 48 | 2 | 343 |
-| 360d | 2025-10-23 | 100 | 96 | 1 | 114 | 7 | 1054 |
-| last720d | 2024-10-28 | 100 | 96 | 1 | 114 | 7 | 1289 |
+| 30d | 2026-09-19 | 16 | 15 | 1 | 17 | 1 | 51 |
+| last60d | 2026-08-20 | 20 | 15 | 1 | 19 | 1 | 62 |
+| 90d | 2026-07-21 | 31 | 20 | 1 | 21 | 1 | 84 |
+| last180d | 2026-04-22 | 93 | 34 | 1 | 48 | 2 | 347 |
+| 360d | 2025-10-24 | 100 | 96 | 1 | 114 | 7 | 1058 |
+| last720d | 2024-10-29 | 100 | 96 | 1 | 114 | 7 | 1293 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T04:05:10Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T04:14:09Z._

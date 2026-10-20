@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/416320358",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/416320358/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/416320358/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.9",
-  "id": 416320358,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/417110156",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/417110156/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/417110156/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.10",
+  "id": 417110156,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84Y0Itm",
-  "tag_name": "v0.9.9",
+  "node_id": "RE_kwDOPfAcG84Y3JiM",
+  "tag_name": "v0.9.10",
   "target_commitish": "main",
-  "name": "Release v0.9.9",
+  "name": "Release v0.9.10",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-18T08:07:08Z",
-  "updated_at": "2026-10-18T08:12:06Z",
-  "published_at": "2026-10-18T08:12:06Z",
+  "created_at": "2026-10-19T09:19:20Z",
+  "updated_at": "2026-10-19T09:24:50Z",
+  "published_at": "2026-10-19T09:24:50Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.9",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.9",
-  "body": "## Snow CLI v0.9.9\n\n### What's New\n\n- Tool-call correction: the new `/tool-correction` command (`on` / `off` / `status`) enables automatic repair of failed tool arguments by the active profile's basic model (falling back to the advanced model). Only argument-level failures are retried, up to 3 repairs per failed invocation; permission, network, timeout and user-cancellation errors pass through unchanged. Repaired `terminal-execute` commands are re-checked against sensitive-command rules, `askuser-ask_question` is never auto-corrected, and a live repairing / retrying / repaired / gave-up indicator is shown in the status line. The setting is project-scoped (`toolCorrectionEnabled`) and enabled by default\n- OAuth identity headers as editable schemes: fixed provider identity headers (Codex, Claude, Antigravity) are no longer hardcoded in request code; sign-in now creates and binds same-named custom header schemes (`Codex` / `Claude` / `Antigravity`), so you can inspect and adjust them in the Custom Headers settings while account-level dynamic headers such as `chatgpt-account-id` are still injected per request. A one-time startup migration creates and binds schemes for legacy OAuth profiles\n- No-op edit protection: edit-by-search and hashline edit tools now reject edits that would leave the file unchanged instead of reporting success with an empty diff, and the DiffViewer plus the pending diff collector drop no-change entries, including results restored from older sessions or logs\n- Docs and i18n: command panel documentation and the en / zh / zh-TW strings are updated for the new tool-correction command and OAuth header scheme behavior\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.10",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.10",
+  "body": "## Snow CLI v0.9.10\n\n### What's New\n\n- feat: add privacy custom rules management via session commands\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

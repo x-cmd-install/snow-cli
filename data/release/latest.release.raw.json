@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/417110156",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/417110156/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/417110156/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.10",
-  "id": 417110156,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/418128666",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/418128666/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/418128666/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.11",
+  "id": 418128666,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84Y3JiM",
-  "tag_name": "v0.9.10",
+  "node_id": "RE_kwDOPfAcG84Y7CMa",
+  "tag_name": "v0.9.11",
   "target_commitish": "main",
-  "name": "Release v0.9.10",
+  "name": "Release v0.9.11",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-19T09:19:20Z",
-  "updated_at": "2026-10-19T09:24:50Z",
-  "published_at": "2026-10-19T09:24:50Z",
+  "created_at": "2026-10-20T07:40:26Z",
+  "updated_at": "2026-10-20T07:47:24Z",
+  "published_at": "2026-10-20T07:47:24Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.10",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.10",
-  "body": "## Snow CLI v0.9.10\n\n### What's New\n\n- feat: add privacy custom rules management via session commands\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.11",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.11",
+  "body": "## Snow CLI v0.9.11\n\n### What's New\n\n- MCP custom API mode: MCP servers now support `type: \"api\"` (plus an explicit `sse` transport), mapping plain HTTP endpoints to MCP tools without spawning a subprocess or keeping a persistent connection. Endpoint definitions cover method/path, per-endpoint headers, shared cookies, parameters in query/path/header/body with types, required flags and default values, and `none`/`json`/`form`/`multipart`/`raw` bodies with `{{param}}` templates (typed placeholders, missing optional params pruned automatically). Configs copied from Snow APP's API-type MCP servers work as-is, including the `args: {cookies, endpoints}` database format; validation requires a URL and at least one endpoint\n- Safer tool-call correction: automatic argument repair is now limited to tools shipped by Snow. User-configured MCP server tools are excluded because retrying unknown side effects could duplicate writes, and `terminal-execute`, `session-command-run`, `scheduler-schedule_task` plus every `team-` / `subagent-` tool are never silently repaired. Built-in tool prefixes are centralized in a single allowlist shared by tool discovery and correction\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

@@ -46,12 +46,26 @@ Total: **216,496** lines of code across **757** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 16 | 16 | 0 | 18 | 0 | 57 |
-| last60d | 2026-08-23 | 21 | 16 | 0 | 19 | 0 | 68 |
-| 90d | 2026-07-24 | 31 | 21 | 0 | 22 | 0 | 90 |
-| last180d | 2026-04-25 | 89 | 35 | 0 | 49 | 1 | 353 |
-| 360d | 2025-10-27 | 100 | 97 | 0 | 115 | 7 | 1064 |
-| last720d | 2024-11-01 | 100 | 97 | 0 | 115 | 7 | 1300 |
+| 30d | 2026-09-23 | 16 | 16 | 0 | 18 | 0 | 57 |
+| last60d | 2026-08-24 | 21 | 16 | 0 | 19 | 0 | 68 |
+| 90d | 2026-07-25 | 31 | 20 | 0 | 22 | 0 | 90 |
+| last180d | 2026-04-26 | 89 | 35 | 0 | 49 | 1 | 353 |
+| 360d | 2025-10-28 | 100 | 97 | 0 | 115 | 7 | 1064 |
+| last720d | 2024-11-02 | 100 | 97 | 0 | 115 | 7 | 1300 |
+
+## Distribution status
+
+Reported by **55** distros on [repology.org](https://repology.org/project/snow-cli). **13** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.4.4` | ⚠️ outdated |
+| Debian 14 | `0.4.4` | ⚠️ outdated |
+| Debian 13 | `0.4.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.4.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.4.4` | ⚠️ outdated |
+| Homebrew | `20130616` | ✅ latest |
+| Nix unstable | `20130616` | ✅ latest |
 
 ## Improve this data
 
@@ -62,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:16:49Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:21:09Z._

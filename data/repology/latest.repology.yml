@@ -1,26 +1,4 @@
-- repo: nix_stable_25_05
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
-  maintainers:
-    - bensiraphob@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
-  maintainers:
-    - bensiraphob@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: kali_rolling
+- repo: raspbian_oldstable
   subrepo: main
   srcname: snow
   binnames:
@@ -33,63 +11,55 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: deepin_25
-  subrepo: community
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.3
-  origversion: 1:0.4.3-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: homebrew
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: 'Whitespace steganography: coded messages using whitespace'
-- repo: deepin_unstable
+- repo: raspbian_stable
   subrepo: main
   srcname: snow
   binnames:
     - r-cran-snow
   visiblename: snow
-  version: 0.4.3
-  origversion: 1:0.4.3-1
+  version: 0.4.4
+  origversion: 1:0.4.4-2
   status: outdated
   maintainers:
     - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: slackbuilds
+  srcname: misc/snow
+  visiblename: misc/snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  maintainers:
+    - petr@kle.cz
+  categories:
+    - misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
 - repo: aur
   srcname: snow
   binname: snow
@@ -211,6 +181,76 @@
     - edd@debian.org
   categories:
     - gnu-r
+- repo: deepin_unstable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.3
+  origversion: 1:0.4.3-1
+  status: outdated
+  maintainers:
+    - edd@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.3
+  origversion: 1:0.4.3-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: homebrew
+  srcname: snow
+  visiblename: snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  summary: 'Whitespace steganography: coded messages using whitespace'
+- repo: kali_rolling
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
 - repo: nix_stable_24_05
   srcname: snow
   visiblename: snow
@@ -223,6 +263,28 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_11
+  srcname: snow
+  visiblename: snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
+  maintainers:
+    - bensiraphob@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: snow
+  visiblename: snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
+  maintainers:
+    - bensiraphob@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: snow
   visiblename: snow
   version: "20130616"
@@ -274,7 +336,7 @@
     - snow-debugsource
   visiblename: snow
   version: 1.5.0
-  origversion: 1.5.0+20261014_a21a569-1.1
+  origversion: 1.5.0+20261020_d0bb3b7-1.1
   status: outdated
   summary: Classic Macintosh emulator
   licenses:
@@ -295,7 +357,7 @@
   categories:
     - gnu-r
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -308,7 +370,7 @@
   categories:
     - gnu-r
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -395,55 +457,6 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_stable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_testing
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: slackbuilds
-  srcname: misc/snow
-  visiblename: misc/snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  maintainers:
-    - petr@kle.cz
-  categories:
-    - misc
 - repo: terra_rawhide
   srcname: snow
   binname: snow
@@ -500,19 +513,6 @@
     - MIT AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Apache-2.0 AND BSD-2-Clause AND Zlib AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (BSD-3-Clause OR Apache-2.0) AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 OR MIT-0 OR Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND
   categories:
     - Development/Debug
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2build1
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - universe/math
 - repo: terra_rawhide
   srcname: snow
   binname: snow-debugsource
@@ -647,8 +647,8 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: snow
   binnames:
     - r-cran-snow
@@ -660,14 +660,14 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
   srcname: snow
   binnames:
     - r-cran-snow
   visiblename: snow
   version: 0.4.4
-  origversion: 1:0.4.4-2
+  origversion: 1:0.4.4-2build1
   status: outdated
   maintainers:
     - edd@debian.org

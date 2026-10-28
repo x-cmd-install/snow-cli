@@ -36,7 +36,7 @@ Total: **216,564** lines of code across **757** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,068 · **Forks**: 86 · **Open issues**: 123 · **Contributors**: 22
+- **Stars**: 1,069 · **Forks**: 86 · **Open issues**: 123 · **Contributors**: 22
 
 ## Totals (cumulative)
 
@@ -46,12 +46,12 @@ Total: **216,564** lines of code across **757** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 17 | 16 | 0 | 18 | 1 | 57 |
-| last60d | 2026-08-28 | 21 | 16 | 0 | 19 | 1 | 70 |
-| 90d | 2026-07-29 | 31 | 18 | 0 | 22 | 1 | 86 |
-| last180d | 2026-04-30 | 88 | 35 | 0 | 49 | 2 | 348 |
-| 360d | 2025-11-01 | 100 | 97 | 0 | 115 | 8 | 1054 |
-| last720d | 2024-11-06 | 100 | 97 | 0 | 115 | 8 | 1302 |
+| 30d | 2026-09-28 | 17 | 16 | 0 | 18 | 1 | 57 |
+| last60d | 2026-08-29 | 21 | 16 | 0 | 19 | 1 | 70 |
+| 90d | 2026-07-30 | 31 | 18 | 0 | 22 | 1 | 86 |
+| last180d | 2026-05-01 | 87 | 35 | 0 | 49 | 2 | 348 |
+| 360d | 2025-11-02 | 100 | 97 | 0 | 115 | 8 | 1054 |
+| last720d | 2024-11-07 | 100 | 97 | 0 | 115 | 8 | 1302 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T04:38:11Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:10:56Z._

@@ -14,11 +14,11 @@ x install snow-cli
 
 ## Code insight
 
-Total: **216,641** lines of code across **757** files in the top 5 languages.
+Total: **216,663** lines of code across **757** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 135,901 | 15,421 | 14,382 | 563 |
+| TypeScript | 135,923 | 15,434 | 14,383 | 563 |
 | Tsx | 45,883 | 2,088 | 4,156 | 128 |
 | Json | 21,570 | 0 | 22 | 11 |
 | JavaScript | 6,271 | 310 | 513 | 21 |
@@ -32,7 +32,7 @@ Total: **216,641** lines of code across **757** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.9.13` (2026-10-29)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-30
 
 ## Popularity
 
@@ -40,18 +40,18 @@ Total: **216,641** lines of code across **757** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 194 · **Merged PRs**: 97 · **Open PRs**: 0 · **Closed issues**: 115 · **Open issues**: 8 · **Commits**: 1307
+- **Releases**: 194 · **Merged PRs**: 97 · **Open PRs**: 0 · **Closed issues**: 115 · **Open issues**: 8 · **Commits**: 1308
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 18 | 16 | 0 | 18 | 1 | 62 |
-| last60d | 2026-08-31 | 22 | 16 | 0 | 19 | 1 | 75 |
-| 90d | 2026-08-01 | 29 | 16 | 0 | 22 | 1 | 91 |
-| last180d | 2026-05-03 | 88 | 35 | 0 | 49 | 2 | 353 |
-| 360d | 2025-11-04 | 100 | 97 | 0 | 115 | 8 | 1059 |
-| last720d | 2024-11-09 | 100 | 97 | 0 | 115 | 8 | 1307 |
+| 30d | 2026-10-01 | 18 | 16 | 0 | 18 | 1 | 63 |
+| last60d | 2026-09-01 | 22 | 16 | 0 | 19 | 1 | 76 |
+| 90d | 2026-08-02 | 29 | 16 | 0 | 22 | 1 | 92 |
+| last180d | 2026-05-04 | 88 | 35 | 0 | 49 | 2 | 354 |
+| 360d | 2025-11-05 | 100 | 97 | 0 | 115 | 8 | 1060 |
+| last720d | 2024-11-10 | 100 | 97 | 0 | 115 | 8 | 1308 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:21:43Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:04:59Z._

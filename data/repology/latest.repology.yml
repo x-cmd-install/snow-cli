@@ -1,42 +1,3 @@
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_stable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_testing
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
 - repo: slackbuilds
   srcname: misc/snow
   visiblename: misc/snow
@@ -47,8 +8,8 @@
     - petr@kle.cz
   categories:
     - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: debian_13
+  subrepo: trixie/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -59,7 +20,20 @@
   maintainers:
     - edd@debian.org
   categories:
-    - universe/math
+    - gnu-r
+- repo: debian_14
+  subrepo: forky/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
 - repo: aur
   srcname: snow
   binname: snow
@@ -131,32 +105,6 @@
     - gnu-r
 - repo: debian_12
   subrepo: bookworm/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: debian_14
-  subrepo: forky/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -336,7 +284,7 @@
     - snow-debugsource
   visiblename: snow
   version: 1.5.0
-  origversion: 1.5.0+20261020_d0bb3b7-1.1
+  origversion: 1.5.0+20261024_e2cdbb9-1.1
   status: outdated
   summary: Classic Macintosh emulator
   licenses:
@@ -457,6 +405,45 @@
     - edd@debian.org
   categories:
     - gnu-r
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_stable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
 - repo: terra_rawhide
   srcname: snow
   binname: snow
@@ -513,6 +500,19 @@
     - MIT AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Apache-2.0 AND BSD-2-Clause AND Zlib AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (BSD-3-Clause OR Apache-2.0) AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 OR MIT-0 OR Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND
   categories:
     - Development/Debug
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2build1
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
 - repo: terra_rawhide
   srcname: snow
   binname: snow-debugsource
@@ -647,8 +647,8 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: snow
   binnames:
     - r-cran-snow
@@ -660,14 +660,14 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: snow
   binnames:
     - r-cran-snow
   visiblename: snow
   version: 0.4.4
-  origversion: 1:0.4.4-2build1
+  origversion: 1:0.4.4-2
   status: outdated
   maintainers:
     - edd@debian.org

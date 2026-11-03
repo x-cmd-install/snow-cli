@@ -31,7 +31,7 @@ Total: **217,128** lines of code across **759** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.9.13` (2026-10-29)
+- **Latest**: `v0.9.14` (2026-11-02)
 - **Last commit**: 2026-11-02
 
 ## Popularity
@@ -40,18 +40,18 @@ Total: **217,128** lines of code across **759** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 194 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 115 · **Open issues**: 8 · **Commits**: 1313
+- **Releases**: 195 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 115 · **Open issues**: 8 · **Commits**: 1314
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 16 | 16 | 0 | 18 | 1 | 60 |
-| last60d | 2026-09-03 | 22 | 17 | 0 | 19 | 1 | 80 |
-| 90d | 2026-08-04 | 29 | 17 | 0 | 22 | 1 | 95 |
-| last180d | 2026-05-06 | 85 | 36 | 0 | 49 | 2 | 336 |
-| 360d | 2025-11-07 | 100 | 98 | 0 | 115 | 8 | 1053 |
-| last720d | 2024-11-12 | 100 | 98 | 0 | 115 | 8 | 1313 |
+| 30d | 2026-10-04 | 17 | 16 | 0 | 18 | 1 | 61 |
+| last60d | 2026-09-04 | 23 | 17 | 0 | 19 | 1 | 81 |
+| 90d | 2026-08-05 | 29 | 17 | 0 | 22 | 1 | 96 |
+| last180d | 2026-05-07 | 86 | 36 | 0 | 49 | 2 | 337 |
+| 360d | 2025-11-08 | 100 | 98 | 0 | 115 | 8 | 1054 |
+| last720d | 2024-11-13 | 100 | 98 | 0 | 115 | 8 | 1314 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T05:34:34Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T06:13:58Z._

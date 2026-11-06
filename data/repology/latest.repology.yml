@@ -1,3 +1,42 @@
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_stable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
 - repo: slackbuilds
   srcname: misc/snow
   visiblename: misc/snow
@@ -8,8 +47,8 @@
     - petr@kle.cz
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: snow
   binnames:
     - r-cran-snow
@@ -20,20 +59,18 @@
   maintainers:
     - edd@debian.org
   categories:
-    - gnu-r
-- repo: debian_14
-  subrepo: forky/main
+    - universe/math
+- repo: chimera
+  subrepo: user
   srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
+  binname: snow-doc
+  visiblename: snow-doc
+  version: 1.5.0
+  origversion: 1.5.0-r0
   status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
+  summary: Classic Macintosh emulator (documentation)
+  licenses:
+    - MIT
 - repo: aur
   srcname: snow
   binname: snow
@@ -79,17 +116,6 @@
   summary: Classic Macintosh emulator
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: snow
-  binname: snow-doc
-  visiblename: snow-doc
-  version: 1.5.0
-  origversion: 1.5.0-r0
-  status: outdated
-  summary: Classic Macintosh emulator (documentation)
-  licenses:
-    - MIT
 - repo: debian_11
   subrepo: bullseye/main
   srcname: snow
@@ -105,6 +131,32 @@
     - gnu-r
 - repo: debian_12
   subrepo: bookworm/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: debian_14
+  subrepo: forky/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -405,51 +457,12 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_stable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_testing
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
 - repo: terra_rawhide
   srcname: snow
   binname: snow
   visiblename: snow
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Classic Macintosh emulator
   maintainers:
@@ -462,8 +475,8 @@
   srcname: snow
   binname: snow
   visiblename: snow
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Classic Macintosh emulator
   maintainers:
@@ -476,8 +489,8 @@
   srcname: snow
   binname: snow-debuginfo
   visiblename: snow-debuginfo
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Debug information for package snow
   maintainers:
@@ -490,8 +503,8 @@
   srcname: snow
   binname: snow-debuginfo
   visiblename: snow-debuginfo
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Debug information for package snow
   maintainers:
@@ -500,25 +513,12 @@
     - MIT AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Apache-2.0 AND BSD-2-Clause AND Zlib AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (BSD-3-Clause OR Apache-2.0) AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 OR MIT-0 OR Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND
   categories:
     - Development/Debug
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2build1
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - universe/math
 - repo: terra_rawhide
   srcname: snow
   binname: snow-debugsource
   visiblename: snow-debugsource
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Debug sources for package snow
   maintainers:
@@ -531,8 +531,8 @@
   srcname: snow
   binname: snow-debugsource
   visiblename: snow-debugsource
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Debug sources for package snow
   maintainers:
@@ -545,8 +545,8 @@
   srcname: snow
   binname: snow-doc
   visiblename: snow-doc
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Documentation files for snow
   maintainers:
@@ -559,8 +559,8 @@
   srcname: snow
   binname: snow-doc
   visiblename: snow-doc
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
+  version: 1.6.0
+  origversion: 1.6.0-1.fcrawhide
   status: outdated
   summary: Documentation files for snow
   maintainers:
@@ -647,8 +647,8 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: snow
   binnames:
     - r-cran-snow
@@ -660,14 +660,14 @@
     - edd@debian.org
   categories:
     - universe/math
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
   srcname: snow
   binnames:
     - r-cran-snow
   visiblename: snow
   version: 0.4.4
-  origversion: 1:0.4.4-2
+  origversion: 1:0.4.4-2build1
   status: outdated
   maintainers:
     - edd@debian.org

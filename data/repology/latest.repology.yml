@@ -1,5 +1,5 @@
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -11,8 +11,8 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -24,8 +24,8 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: raspbian_testing
-  subrepo: main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -37,40 +37,6 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: slackbuilds
-  srcname: misc/snow
-  visiblename: misc/snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  maintainers:
-    - petr@kle.cz
-  categories:
-    - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - universe/math
-- repo: chimera
-  subrepo: user
-  srcname: snow
-  binname: snow-doc
-  visiblename: snow-doc
-  version: 1.5.0
-  origversion: 1.5.0-r0
-  status: outdated
-  summary: Classic Macintosh emulator (documentation)
-  licenses:
-    - MIT
 - repo: aur
   srcname: snow
   binname: snow
@@ -114,6 +80,17 @@
   origversion: 1.5.0-r0
   status: outdated
   summary: Classic Macintosh emulator
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: snow
+  binname: snow-doc
+  visiblename: snow-doc
+  version: 1.5.0
+  origversion: 1.5.0-r0
+  status: outdated
+  summary: Classic Macintosh emulator (documentation)
   licenses:
     - MIT
 - repo: debian_11
@@ -218,19 +195,6 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
 - repo: homebrew
   srcname: snow
   visiblename: snow
@@ -317,17 +281,6 @@
     - bensiraphob@gmail.com
   licenses:
     - Apache-2.0
-- repo: openpkg_current
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: Whitespace Steganography Tool
-  licenses:
-    - Apache
-  categories:
-    - Cryptography
 - repo: opensuse_emulators_tumbleweed
   srcname: snow
   binnames:
@@ -351,32 +304,6 @@
   visiblename: snow
   version: 0.4.3
   origversion: 1:0.4.3-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: parrot
-  subrepo: parrot/main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
   status: outdated
   maintainers:
     - edd@debian.org
@@ -457,6 +384,55 @@
     - edd@debian.org
   categories:
     - gnu-r
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_stable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: slackbuilds
+  srcname: misc/snow
+  visiblename: misc/snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  maintainers:
+    - petr@kle.cz
+  categories:
+    - misc
 - repo: terra_rawhide
   srcname: snow
   binname: snow
@@ -647,6 +623,19 @@
     - edd@debian.org
   categories:
     - universe/math
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: snow
@@ -675,6 +664,19 @@
     - universe/math
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2build1
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: snow
   binnames:
     - r-cran-snow

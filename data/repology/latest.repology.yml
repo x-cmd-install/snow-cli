@@ -1,3 +1,39 @@
+- repo: raspbian_stable
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: raspbian_testing
+  subrepo: main
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - gnu-r
+- repo: slackbuilds
+  srcname: misc/snow
+  visiblename: misc/snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  maintainers:
+    - petr@kle.cz
+  categories:
+    - misc
 - repo: chimera
   subrepo: user
   srcname: snow
@@ -9,17 +45,6 @@
   summary: Classic Macintosh emulator (documentation)
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: snow
-  visiblename: snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
-  maintainers:
-    - bensiraphob@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: aur
   srcname: snow
   binname: snow
@@ -200,6 +225,17 @@
     - edd@debian.org
   categories:
     - gnu-r
+- repo: nix_stable_24_05
+  srcname: snow
+  visiblename: snow
+  version: "20130616"
+  origversion: null
+  status: newest
+  summary: Conceal messages in ASCII text by appending whitespace to the end of lines
+  maintainers:
+    - bensiraphob@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: snow
   visiblename: snow
@@ -262,8 +298,8 @@
     - snow-debuginfo
     - snow-debugsource
   visiblename: snow
-  version: 1.5.0
-  origversion: 1.5.0+20261024_e2cdbb9-1.1
+  version: 1.6.0
+  origversion: 1.6.0+20261107_ce1b3c6b-1.2
   status: outdated
   summary: Classic Macintosh emulator
   licenses:
@@ -284,7 +320,7 @@
   categories:
     - gnu-r
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -297,7 +333,7 @@
   categories:
     - gnu-r
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: snow
   binnames:
     - r-cran-snow
@@ -397,42 +433,6 @@
     - edd@debian.org
   categories:
     - gnu-r
-- repo: raspbian_stable
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: raspbian_testing
-  subrepo: main
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - gnu-r
-- repo: slackbuilds
-  srcname: misc/snow
-  visiblename: misc/snow
-  version: "20130616"
-  origversion: null
-  status: newest
-  maintainers:
-    - petr@kle.cz
-  categories:
-    - misc
 - repo: terra_rawhide
   srcname: snow
   binname: snow
@@ -489,6 +489,19 @@
     - MIT AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Apache-2.0 AND BSD-2-Clause AND Zlib AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (BSD-3-Clause OR Apache-2.0) AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 OR MIT-0 OR Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND
   categories:
     - Development/Debug
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: snow
+  binnames:
+    - r-cran-snow
+  visiblename: snow
+  version: 0.4.4
+  origversion: 1:0.4.4-2build1
+  status: outdated
+  maintainers:
+    - edd@debian.org
+  categories:
+    - universe/math
 - repo: terra_rawhide
   srcname: snow
   binname: snow-debugsource
@@ -644,19 +657,6 @@
   visiblename: snow
   version: 0.4.4
   origversion: 1:0.4.4-2
-  status: outdated
-  maintainers:
-    - edd@debian.org
-  categories:
-    - universe/math
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: snow
-  binnames:
-    - r-cran-snow
-  visiblename: snow
-  version: 0.4.4
-  origversion: 1:0.4.4-2build1
   status: outdated
   maintainers:
     - edd@debian.org

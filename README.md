@@ -46,12 +46,12 @@ Total: **219,669** lines of code across **765** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 11 | 10 | 0 | 9 | 3 | 35 |
-| last60d | 2026-09-14 | 24 | 17 | 0 | 19 | 3 | 83 |
-| 90d | 2026-08-15 | 29 | 17 | 0 | 21 | 3 | 96 |
-| last180d | 2026-05-17 | 77 | 36 | 0 | 46 | 4 | 323 |
-| 360d | 2025-11-18 | 100 | 98 | 0 | 115 | 9 | 1044 |
-| last720d | 2024-11-23 | 100 | 98 | 0 | 115 | 9 | 1320 |
+| 30d | 2026-10-15 | 10 | 2 | 0 | 1 | 3 | 35 |
+| last60d | 2026-09-15 | 23 | 17 | 0 | 19 | 3 | 83 |
+| 90d | 2026-08-16 | 29 | 17 | 0 | 21 | 3 | 96 |
+| last180d | 2026-05-18 | 77 | 36 | 0 | 45 | 4 | 323 |
+| 360d | 2025-11-19 | 100 | 98 | 0 | 115 | 9 | 1044 |
+| last720d | 2024-11-24 | 100 | 98 | 0 | 115 | 9 | 1320 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:09:05Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T05:54:44Z._

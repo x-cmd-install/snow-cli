@@ -31,34 +31,27 @@ Total: **221,007** lines of code across **768** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `vsix-v0.4.36` (2026-11-19)
+- **Latest**: `v0.9.17` (2026-11-19)
 - **Last commit**: 2026-11-19
-- **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 1,066 · **Forks**: 84 · **Open issues**: 125 · **Contributors**: 23
+- **Stars**: 1,067 · **Forks**: 84 · **Open issues**: 125 · **Contributors**: 23
 
 ## Totals (cumulative)
 
-- **Releases**: 198 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1326
+- **Releases**: 199 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1327
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 7 | 1 | 0 | 1 | 3 | 25 |
-| last60d | 2026-09-20 | 23 | 17 | 0 | 19 | 3 | 82 |
-| 90d | 2026-08-21 | 27 | 17 | 0 | 20 | 3 | 94 |
-| last180d | 2026-05-23 | 72 | 36 | 0 | 43 | 4 | 315 |
-| 360d | 2025-11-24 | 100 | 94 | 0 | 116 | 9 | 1010 |
-| last720d | 2024-11-29 | 100 | 98 | 0 | 116 | 9 | 1326 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [snow-cli-0.4.36.vsix](https://github.com/MayDay-wpf/snow-cli/releases/download/vsix-v0.4.36/snow-cli-0.4.36.vsix) | 12.2 MiB | `other` |
+| 30d | 2026-10-21 | 7 | 1 | 0 | 1 | 3 | 26 |
+| last60d | 2026-09-21 | 23 | 17 | 0 | 19 | 3 | 83 |
+| 90d | 2026-08-22 | 28 | 17 | 0 | 20 | 3 | 95 |
+| last180d | 2026-05-24 | 73 | 36 | 0 | 42 | 4 | 316 |
+| 360d | 2025-11-25 | 100 | 94 | 0 | 115 | 9 | 1011 |
+| last720d | 2024-11-30 | 100 | 98 | 0 | 116 | 9 | 1327 |
 
 ## Distribution status
 
@@ -83,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T06:57:44Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T06:49:52Z._

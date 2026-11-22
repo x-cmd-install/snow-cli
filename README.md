@@ -46,16 +46,16 @@ Total: **221,007** lines of code across **768** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 7 | 1 | 0 | 1 | 3 | 26 |
-| last60d | 2026-09-21 | 23 | 17 | 0 | 19 | 3 | 83 |
-| 90d | 2026-08-22 | 28 | 17 | 0 | 20 | 3 | 95 |
-| last180d | 2026-05-24 | 73 | 36 | 0 | 42 | 4 | 316 |
-| 360d | 2025-11-25 | 100 | 94 | 0 | 115 | 9 | 1011 |
-| last720d | 2024-11-30 | 100 | 98 | 0 | 116 | 9 | 1327 |
+| 30d | 2026-10-23 | 7 | 1 | 0 | 0 | 3 | 19 |
+| last60d | 2026-09-23 | 23 | 17 | 0 | 19 | 3 | 83 |
+| 90d | 2026-08-24 | 28 | 17 | 0 | 20 | 3 | 94 |
+| last180d | 2026-05-26 | 73 | 36 | 0 | 42 | 4 | 298 |
+| 360d | 2025-11-27 | 100 | 93 | 0 | 113 | 8 | 975 |
+| last720d | 2024-12-02 | 100 | 98 | 0 | 116 | 9 | 1327 |
 
 ## Distribution status
 
-Reported by **55** distros on [repology.org](https://repology.org/project/snow-cli). **12** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/snow-cli). **12** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,4 +76,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T06:49:52Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T06:12:44Z._

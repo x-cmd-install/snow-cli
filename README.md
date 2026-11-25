@@ -31,7 +31,7 @@ Total: **222,104** lines of code across **770** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.9.17` (2026-11-19)
+- **Latest**: `v0.9.18` (2026-11-24)
 - **Last commit**: 2026-11-24
 
 ## Popularity
@@ -40,32 +40,18 @@ Total: **222,104** lines of code across **770** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 199 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1328
+- **Releases**: 200 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1329
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 6 | 1 | 0 | 0 | 3 | 20 |
-| last60d | 2026-09-25 | 23 | 17 | 0 | 19 | 3 | 84 |
-| 90d | 2026-08-26 | 27 | 17 | 0 | 20 | 3 | 95 |
-| last180d | 2026-05-28 | 71 | 36 | 0 | 41 | 4 | 299 |
-| 360d | 2025-11-29 | 100 | 89 | 0 | 108 | 7 | 976 |
-| last720d | 2024-12-04 | 100 | 98 | 0 | 116 | 9 | 1328 |
-
-## Distribution status
-
-Reported by **54** distros on [repology.org](https://repology.org/project/snow-cli). **12** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.4.4` | ⚠️ outdated |
-| Debian 14 | `0.4.4` | ⚠️ outdated |
-| Debian 13 | `0.4.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.4.4` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.4.4` | ⚠️ outdated |
-| Homebrew | `20130616` | ✅ latest |
-| Nix unstable | `20130616` | ✅ latest |
+| 30d | 2026-10-26 | 7 | 1 | 0 | 0 | 3 | 21 |
+| last60d | 2026-09-26 | 24 | 17 | 0 | 19 | 3 | 85 |
+| 90d | 2026-08-27 | 28 | 17 | 0 | 20 | 3 | 96 |
+| last180d | 2026-05-29 | 71 | 36 | 0 | 41 | 4 | 300 |
+| 360d | 2025-11-30 | 100 | 88 | 0 | 106 | 7 | 977 |
+| last720d | 2024-12-05 | 100 | 98 | 0 | 116 | 9 | 1329 |
 
 ## Improve this data
 
@@ -76,4 +62,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:29:08Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:00:35Z._

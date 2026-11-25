@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/451139020",
-  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/451139020/assets",
-  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/451139020/assets{?name,label}",
-  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.17",
-  "id": 451139020,
+  "url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/456665596",
+  "assets_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/releases/456665596/assets",
+  "upload_url": "https://uploads.github.com/repos/MayDay-wpf/snow-cli/releases/456665596/assets{?name,label}",
+  "html_url": "https://github.com/MayDay-wpf/snow-cli/releases/tag/v0.9.18",
+  "id": 456665596,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPfAcG84a49XM",
-  "tag_name": "v0.9.17",
+  "node_id": "RE_kwDOPfAcG84bOCn8",
+  "tag_name": "v0.9.18",
   "target_commitish": "main",
-  "name": "Release v0.9.17",
+  "name": "Release v0.9.18",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-19T09:31:40Z",
-  "updated_at": "2026-11-19T09:44:57Z",
-  "published_at": "2026-11-19T09:44:57Z",
+  "created_at": "2026-11-24T11:20:21Z",
+  "updated_at": "2026-11-24T11:25:23Z",
+  "published_at": "2026-11-24T11:25:23Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.17",
-  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.17",
-  "body": "## Snow CLI v0.9.17\n\n### What's New\n\n- Enhance support for decision model providers, update relevant configurations and interfaces\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
+  "tarball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/tarball/v0.9.18",
+  "zipball_url": "https://api.github.com/repos/MayDay-wpf/snow-cli/zipball/v0.9.18",
+  "body": "## Snow CLI v0.9.18\n\n### What's New\n\n- add OAuth 2.1 support for MCP servers\n\n### Installation\n```bash\nnpm install -g snow-ai\n```\n\n### Usage\n```bash\nsnow\n```\n### Update\n```bash\nsnow --update\n```\n"
 }

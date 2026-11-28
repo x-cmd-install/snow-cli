@@ -40,18 +40,18 @@ Total: **222,863** lines of code across **770** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 201 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1334
+- **Releases**: 201 · **Merged PRs**: 98 · **Open PRs**: 0 · **Closed issues**: 116 · **Open issues**: 9 · **Commits**: 1335
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 8 | 1 | 0 | 0 | 3 | 26 |
-| last60d | 2026-09-28 | 25 | 17 | 0 | 19 | 3 | 90 |
-| 90d | 2026-08-29 | 29 | 17 | 0 | 20 | 3 | 101 |
-| last180d | 2026-05-31 | 70 | 36 | 0 | 41 | 4 | 305 |
-| 360d | 2025-12-02 | 100 | 88 | 0 | 101 | 7 | 982 |
-| last720d | 2024-12-07 | 100 | 98 | 0 | 116 | 9 | 1334 |
+| 30d | 2026-10-29 | 8 | 1 | 0 | 0 | 3 | 27 |
+| last60d | 2026-09-29 | 25 | 17 | 0 | 19 | 3 | 91 |
+| 90d | 2026-08-30 | 29 | 17 | 0 | 20 | 3 | 102 |
+| last180d | 2026-06-01 | 70 | 34 | 0 | 41 | 4 | 306 |
+| 360d | 2025-12-03 | 100 | 84 | 0 | 100 | 6 | 983 |
+| last720d | 2024-12-08 | 100 | 98 | 0 | 116 | 9 | 1335 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for snow-cli lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T07:52:47Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:21:23Z._
